@@ -1,12 +1,6 @@
-Iocage [jackett](https://github.com/Jackett/Jackett) plugin for freenas. 
+## jackett 
 
+Jackett is tool designed to combine and search multiple bittorrent trackers like a proxy.
 
-# Testing manually
-
-In freenas shell run:
-
-* `fetch https://raw.githubusercontent.com/fulder/iocage-plugin-index/master/jackett.json`
-* `iocage fetch -P jackett.json --name jackett ip4_addr="<INTERFACE>|<IP>/<MASK>" vnet=off`
-
-where `<INTERFACE>` is the name of the ethernet interface and `<IP>/<MASK>` is a static IP address in local network range
- 
+### Post-install
+Currently there are not relevant post-install steps, other than your own personal preferences for setting up Jacket.
