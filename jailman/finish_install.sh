@@ -4,7 +4,7 @@
 #init jail
 initplugin "$1"
 
-chown -R jackett:jackett /usr/local/share/Jackett /config
-service jackett restart
+iocage exec "$1" chown -R jackett:jackett /usr/local/share/Jackett /config
+iocage exec "$1" service jackett restart
 
 exitplugin "$1"
